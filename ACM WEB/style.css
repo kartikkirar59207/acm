@@ -1,0 +1,96 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(90deg, #00ff2f, #0072ff);
+    background-repeat: no-repeat;
+    margin:0;
+    color: black;
+    background-size: cover;
+    background: linear-gradient(90deg, #00ff2f, #0072ff);   
+}
+.pbox{
+margin-top: 20px;
+margin-bottom: 20px;
+margin-left:5em;
+margin-right:5em;
+padding-left: 5em;
+padding-right: 5em;
+display: flex;
+display: flex;
+justify-content: center; 
+border:solid;
+border-color:black;
+border-width:5px;
+font-size:25px;
+font-weight: 900;
+font-family: Arial, Helvetica, sans-serif;
+background: linear-gradient(rgb(210,2,207),rgb(224,36,36));}
+/* Navbar */
+.navbar {
+    color:black;
+    font-size:2em;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: linear-gradient(rgb(210,2,207),rgb(224,36,36));
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+.nav-links{
+    margin-left: 20px;
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+    color: white;
+}
+.container {
+    background: linear-gradient(rgb(210, 2, 207),rgb(224, 36, 36));
+    padding: 30px 40px;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+    margin: 30px auto;
+    backdrop-filter: blur(10px);
+    border:solid;
+    border-color:black;
+    border-width:5px;
+}
+h1{
+    margin-bottom: 20px;
+    font-size: 3em;
+}
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+input[type="text"]{
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+}
+
+button{
+    padding: 12px;
+    background: linear-gradient(135deg, #00ff85, #00c6ff);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    color:black;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.05);
+    background: linear-gradient(135deg, #00c6ff, #00ff85);
+}
